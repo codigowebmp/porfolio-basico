@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Document</title>
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#skills">Skills</a>
+            <a href="#portfolio">Portafolio</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+    <section id="inicio" class="inicio">
+        <div class="contenedor-inicio">
+            <h2 id="text-container"></h2>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quis in, reiciendis soluta quasi voluptate dignissimos.</p>
+    
+            <button>Registrate</button>
+    
+            <h1 class="logo">TU<span>LOGO</span></h1>
+    
+            <img src="img/objeto.svg" alt="" class="objeto">
+        </div>
+    </section>
+    <section id="skills" class="skills">
+        <div class="contenedor-skills">
+           <h2>Skills</h2>
+           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
+            Consectetur repellendus libero corrupti iure voluptatum.</p>
+
+            <div class="fila">
+                <div class="col">
+                    <img src="img/meter1.svg" alt="">
+                    <h3>Brand Identity</h3>
+                </div>
+                <div class="col">
+                    <img src="img/meter1.svg" alt="">
+                    <h3>Brand Identity</h3>
+                </div>
+                <div class="col">
+                    <img src="img/meter1.svg" alt="">
+                    <h3>Brand Identity</h3>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <img src="img/meter1.svg" alt="">
+                    <h3>Brand Identity</h3>
+                </div>
+                <div class="col">
+                    <img src="img/meter1.svg" alt="">
+                    <h3>Brand Identity</h3>
+                </div>
+                <div class="col">
+                    <img src="img/meter1.svg" alt="">
+                    <h3>Brand Identity</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- sección proyectos -->
+    <section id="portfolio" class="porfolio">
+        <h2>Proyectos</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quas sequi ullam possimus, facilis corrupti porro at omnis eos numquam illum voluptatibus! Odit est repellat iure sint harum totam possimus.</p>
+        <nav>
+            <button class="selected" onclick="mostrar(0)">Tab 1</button>
+            <div class="separador"></div>
+            <button onclick="mostrar(1)">Tab 2</button>
+            <div class="separador"></div>
+            <button onclick="mostrar(2)">Tab 3</button>
+        </nav>
+
+        <div id="proyectos" class="proyectos">
+            <div class="fila">
+                <div class="col">
+                    <img src="img/project-img1.png" alt="">
+                    <div class="overlay">
+                    </div>
+                    <div class="info">
+                        <h2>Business Startup </h2>
+                        <p>Diseño y Desarrollo </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="img/project-img2.png" alt="">
+                    <div class="overlay">
+                    </div>
+                    <div class="info">
+                        <h2>Business Startup </h2>
+                        <p>Diseño y Desarrollo </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="img/project-img3.png" alt="">
+                    <div class="overlay">
+                    </div>
+                    <div class="info">
+                        <h2>Business Startup </h2>
+                        <p>Diseño y Desarrollo </p>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <img src="img/project-img1.png" alt="">
+                    <div class="overlay">
+                    </div>
+                    <div class="info">
+                        <h2>Business Startup </h2>
+                        <p>Diseño y Desarrollo </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="img/project-img2.png" alt="">
+                    <div class="overlay">
+                    </div>
+                    <div class="info">
+                        <h2>Business Startup </h2>
+                        <p>Diseño y Desarrollo </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="img/project-img3.png" alt="">
+                    <div class="overlay">
+                    </div>
+                    <div class="info">
+                        <h2>Business Startup </h2>
+                        <p>Diseño y Desarrollo </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="descripcion" class="descripcion">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel culpa odio omnis nemo impedit, deserunt odit accusamus et optio quam! Corporis cupiditate accusantium, adipisci eius suscipit eligendi nesciunt inventore ut.</p>
+        </div>
+
+        <div id="marcas" class="marcas">
+            <div class="fila">
+                <div class="col">
+                    <i class="fa-brands fa-google"></i>
+                    <h3>Google</h3>
+                </div>
+                <div class="col">
+                    <i class="fa-brands fa-apple"></i>
+                    <h3>Apple</h3>
+                </div>
+                <div class="col">
+                    <i class="fa-brands fa-pinterest-p"></i>
+                    <h3>Pinterest</h3>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <i class="fa-brands fa-google"></i>
+                    <h3>Google</h3>
+                </div>
+                <div class="col">
+                    <i class="fa-brands fa-apple"></i>
+                    <h3>Apple</h3>
+                </div>
+                <div class="col">
+                    <i class="fa-brands fa-pinterest-p"></i>
+                    <h3>Pinterest</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contacto" class="contacto">
+        <div class="contenido-contacto">
+            <div class="img">
+                <img src="img/contact-img.svg" alt="">
+            </div>
+            <div class="formulario">
+                <h2>Contactanos Ahora</h2>
+                <div class="fila">
+                    <input type="text" placeholder="Pimer Nombre">
+                    <input type="text" placeholder="Apellido">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Dirección de Email">
+                    <input type="text" placeholder="Nº Teléfono">
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                <button>Enviar</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Código Web</p>
+        <div class="redes">
+            <a href="#" class="red">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+                
+            <a href="#" class="red">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="#" class="red">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
